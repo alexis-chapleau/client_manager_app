@@ -1,0 +1,11 @@
+framework module Protobuf {
+  umbrella header "Protobuf-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Protobuf.Swift {
+  header "Protobuf-Swift.h"
+  requires objc
+}
